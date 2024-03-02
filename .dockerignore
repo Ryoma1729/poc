@@ -1,0 +1,14 @@
+**/__pycache__
+**/.pytest_cache
+**/.mypy_cache
+**/.git
+**/*.pyc
+**/*.pyo
+**/*.pyd
+*.log
+*.bk
+.DS_Store
+.gitignore
+.vscode
+Dockerfile
+docker-compose.yml

@@ -1,0 +1,17 @@
+version: "3.5"
+services:
+  dev:
+    container_name: PoC
+    build:
+      context: .
+      dockerfile: Dockerfile
+    shm_size: "28gb"
+    volumes:
+      - type: bind
+        source: ./
+        target: /workspace
+    working_dir: /workspace
+    ports:
+      - "8000:8000"
+    tty: true
+

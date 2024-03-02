@@ -1,0 +1,56 @@
+{
+    "editor.fontSize": 15,
+    "editor.tabSize": 4,
+    "editor.lineNumbers": "on",
+    "editor.formatOnType": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.guides.bracketPairs": false,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.renderWhitespace": "boundary",
+    "editor.cursorStyle": "line",
+    "editor.stickyScroll.enabled": true,
+    "editor.snippetSuggestions": "top",
+    "editor.wordWrap": "on",
+    "explorer.compactFolders": false,
+    "files.autoSave": "afterDelay",
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Absolute Black",
+    "workbench.panel.defaultLocation": "right",
+    "workbench.reduceMotion": "on",
+    "workbench.tree.renderIndentGuides": "always",
+    "workbench.statusBar.visible": true,
+    "workbench.editor.showTabs": "multiple",
+    "workbench.editor.tabSizing": "fit",
+    "workbench.editor.enablePreview": true,
+    "workbench.editor.enablePreviewFromQuickOpen": true,
+    "workbench.startupEditor": "none",
+    "terminal.integrated.fontSize": 12,
+    "terminal.integrated.copyOnSelection": true,
+    "terminal.integrated.rightClickBehavior": "paste",
+    "extensions.ignoreRecommendations": false,
+    "[python]": {
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit"
+        }
+    },
+    "ruff.lint.args": [
+        "--config=${workspaceFolder}/pyproject.toml",
+        "--ignore=E203,E741,F401,F821,F841,E731,E402"
+    ],
+    "mypy-type-checker.args": [
+        "--config=${workspaceFolder}/pyproject.toml"
+    ],
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit"
+    },
+
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "terminal.integrated.defaultProfile.linux": "zsh"
+}
